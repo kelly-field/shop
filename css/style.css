@@ -1,0 +1,156 @@
+body{
+	font-size: 12px;
+	font-family: "arial, helvetica, sans-serif";
+	background-color: #fff;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+ul li{
+	list-style: none;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.w{
+	width: 1190px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*头部*/
+.top-bg{
+	width:100%;
+	background-color: #f5f5f5;
+}
+.top{
+	height:40px;
+}
+.top-left li,.top-right li{
+	float:left;
+	line-height: 40px;
+	margin-right: 8px;
+}
+.top-right{
+	float:right;
+}
+.ipad{
+	width: 100%;
+	height:70px;
+	background-color:#5d0c87 ;
+}
+.ipad img{
+	width:1190px;
+	height:70px;
+	margin: 0 auto;
+}
+/*logo区域*/
+.logo{
+	height:120px;
+}
+.logo ul{
+	position: relative;
+}
+.logo ul .lg{
+	position: absolute;
+	top:18px;
+	left:0;
+}
+.logo ul .tex{
+	     width:396px; 
+	     height:40px;
+	     border: 2px solid #ff7800; 
+	     position: absolute;
+	     top:32px;
+	     left:358px;    
+}
+.logo ul .sea{
+	    width:96px; 
+	     height:44px;
+	     border: none;
+	     background-color: #ff7800; 
+	     position: absolute;
+	     top:32px;
+	     left:756px; 
+}
+.logo ul .bri{
+	position: absolute;
+	top:82px;
+	left:358px;
+	margin-right: 10px;
+	font-size: 14px;
+}
+.logo ul .sev{
+	position: absolute;
+	top:38px;
+	right:0;
+}
+/*商品分类*/
+.product{
+	height:46px;
+    background-color: #ff7800;
+}
+.product ul li{
+	width:122px;
+	font-size: 18px;
+	float: left;
+	line-height: 46px;
+	text-align: center;
+}
+.product ul li a{
+	color: white;
+}
+.product ul li:first-of-type{
+	width:200px;
+	background-color: #ld7bd8;
+}
+.car{
+	height:108px;
+	
+}
+.car img{
+	margin-top:30px;
+	margin-left: 648px;
+}
+.sub{
+	height:250px;
+}
+.sub .su{
+	position: relative;
+	font-size: 14px;
+}
+.sub .su .di{
+	position: absolute;
+	top:0;
+	left:0;
+}
+.sub .su .d{
+	position: absolute;
+	top:0;
+	left:72px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.sub .su .q{
+	position: absolute;
+	top:20px;
+	left:72px;
+}
+.sub .su .num{
+	
+}
